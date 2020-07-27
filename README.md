@@ -1,5 +1,5 @@
 # scihub_bot
-
+This is a Bale bot for fetching papers from sciencedirect urls.
 # how to using bot
 
 ##step 1
