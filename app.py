@@ -4,7 +4,7 @@ import re
 
 
 def get_url(url):
-    scihub_url = 'https://sci-hub.tw/'+url
+    scihub_url = 'https://sci-hub.do/'+url
     print("@@@@@@@@@@@",scihub_url)
     contents = requests.get(scihub_url)
     txt = contents.text
