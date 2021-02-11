@@ -4,7 +4,7 @@ import re
 
 
 def get_url(url):
-    scihub_url = 'https://sci-hub.tw/'+url
+    scihub_url = 'https://sci-hub.do/'+url
     print("@@@@@@@@@@@",scihub_url)
     contents = requests.get(scihub_url)
     txt = contents.text
@@ -55,7 +55,7 @@ def article(bot, update):
 
 
 def main():
-    updater = Updater('add toke')
+    updater = Updater('1092156256:AAG5VSCrui6MjxNN6_WSIr3YqZqpDcwqzFk')
     dp = updater.dispatcher
     dp.add_handler(MessageHandler(Filters.text,article))
     updater.start_polling()
